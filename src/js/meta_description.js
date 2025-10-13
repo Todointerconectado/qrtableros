@@ -18,7 +18,8 @@
       }
     }
 
-    const registro = datos.find((item) => item.sede === sedeActual);
+    const normalizar = s => s.toLowerCase().replace(/\s+/g, "-").trim();
+    const registro = datos.find(item => normalizar(item.sede) === normalizar(sedeActual));
 
     if (!registro) {
       console.warn("No se encontró tablero para esta sede:", sedeActual);

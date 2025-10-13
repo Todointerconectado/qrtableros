@@ -62,7 +62,8 @@ Qué hace este 404.html:
         const partes = path.split("/");
         let sede = partes[partes.length - 1];
 
-        sede = decodeURIComponent(sede.replace(/-/g, " "));
+        // 🔹 Mantener los guiones (no reemplazarlos por espacios)
+        sede = decodeURIComponent(sede);
 
         if (!sede) {
           document.body.innerHTML = "<h2>No se especificó sede.</h2>";
