@@ -10,7 +10,8 @@
     "schema": "https://tu-servidor.com/schema/tableros.json"
   },
   "datos": [
-    { "id registro": 1,
+    {
+      "id registro": 1,
       "uuid": "8fd28259-0bc9-41fa-9a3f-754fe8ff0fd8",
       "empresa": "MULTIPLACA",
       "zona": "MULTIPLACA",
@@ -33,10 +34,11 @@
         "T-G",
         "MULTIPLACA"
       ],
-      "qr": "../assets/images/qrs_svg/MULTIPLACA.svg",
+      "qr": "./assets/images/qrs_svg/MULTIPLACA.svg",
       "notas": "Tablero principal MULTIPLACA"
     },
-    { "id registro": 2,
+    {
+      "id registro": 2,
       "uuid": "68e0a371-ef3b-4d71-98ff-8d0acba61e7b",
       "empresa": "HIDALGO",
       "zona": "Zona: 01",
@@ -59,10 +61,11 @@
         "T-G",
         "Zona: 01"
       ],
-      "qr": "../assets/images/qrs_svg/LOMAS.svg",
+      "qr": "./assets/images/qrs_svg/LOMAS.svg",
       "notas": "Tablero principal LOMAS"
     },
-    { "id registro": 3,
+    {
+      "id registro": 3,
       "uuid": "3aa659ea-ef27-4eaf-9874-fcc294fc3558",
       "empresa": "HIDALGO",
       "zona": "Zona: 04",
@@ -85,10 +88,11 @@
         "T-G",
         "Zona: 04"
       ],
-      "qr": "../assets/images/qrs_svg/VICENTE-LÓPEZ-2.svg",
+      "qr": "./assets/images/qrs_svg/VICENTE-LÓPEZ-2.svg",
       "notas": "Tablero principal VICENTE LÓPEZ 2"
     },
-    { "id registro": 4,
+    {
+      "id registro": 4,
       "uuid": "8b7efae0-5abd-4d8e-84c7-a84bcad6b3e7",
       "empresa": "HIDALGO",
       "zona": "Zona: 05",
@@ -111,10 +115,11 @@
         "T-G",
         "Zona: 05"
       ],
-      "qr": "../assets/images/qrs_svg/MUNRO.svg",
+      "qr": "./assets/images/qrs_svg/MUNRO.svg",
       "notas": "Tablero principal MUNRO"
     },
-    { "id registro": 5,
+    {
+      "id registro": 5,
       "uuid": "b3716975-ace7-4776-9062-92173178d8ee",
       "empresa": "HIDALGO",
       "zona": "Zona: 05",
@@ -137,10 +142,11 @@
         "T-G",
         "Zona: 05"
       ],
-      "qr": "../assets/images/qrs_svg/VILLA-ADELINA.svg",
+      "qr": "./assets/images/qrs_svg/VILLA-ADELINA.svg",
       "notas": "Tablero principal VILLA ADELINA"
     },
-    { "id registro": 6,
+    {
+      "id registro": 6,
       "uuid": "ce744fbe-d26b-49d0-b59e-a5412b4b976b",
       "empresa": "HIDALGO",
       "zona": "Zona: 06",
@@ -163,10 +169,11 @@
         "T-G",
         "Zona: 06"
       ],
-      "qr": "../assets/images/qrs_svg/CASEROS.svg",
+      "qr": "./assets/images/qrs_svg/CASEROS.svg",
       "notas": "Tablero principal CASEROS"
     },
-    { "id registro": 7,
+    {
+      "id registro": 7,
       "uuid": "5fe3d5d2-820c-482a-bce7-159a84f8d4f6",
       "empresa": "HIDALGO",
       "zona": "Zona: 07",
@@ -189,10 +196,11 @@
         "T-G",
         "Zona: 07"
       ],
-      "qr": "../assets/images/qrs_svg/PILAR-PARALELO.svg",
+      "qr": "./assets/images/qrs_svg/PILAR-PARALELO.svg",
       "notas": "Tablero principal PILAR PARALELO"
     },
-    { "id registro": 8,
+    {
+      "id registro": 8,
       "uuid": "dc4c99af-cb66-46bd-b73e-41b6a59b4b1a",
       "empresa": "HIDALGO",
       "zona": "Zona: 08",
@@ -215,10 +223,11 @@
         "T-G",
         "Zona: 08"
       ],
-      "qr": "../assets/images/qrs_svg/SAN-MIGUEL.svg",
+      "qr": "./assets/images/qrs_svg/SAN-MIGUEL.svg",
       "notas": "Tablero principal SAN MIGUEL"
     },
-    { "id registro": 9,
+    {
+      "id registro": 9,
       "uuid": "51e473c7-26e8-49c5-89ea-96c0129ceaa6",
       "empresa": "HIDALGO",
       "zona": "Zona: 09",
@@ -241,10 +250,11 @@
         "T-G",
         "Zona: 09"
       ],
-      "qr": "../assets/images/qrs_svg/REMEROS.svg",
+      "qr": "./assets/images/qrs_svg/REMEROS.svg",
       "notas": "Tablero principal REMEROS"
     },
-    { "id registro": 10,
+    {
+      "id registro": 10,
       "uuid": "20a79a30-e136-4ae1-aee7-b3916960f00c",
       "empresa": "HIDALGO",
       "zona": "Zona: 09",
@@ -267,7 +277,7 @@
         "T-G",
         "Zona: 09"
       ],
-      "qr": "../assets/images/qrs_svg/SAN-FERNANDO.svg",
+      "qr": "./assets/images/qrs_svg/SAN-FERNANDO.svg",
       "notas": "Tablero principal SAN FERNANDO"
     }
   ]

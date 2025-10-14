@@ -5,6 +5,7 @@
 - Guardar los SVG en assets/images/qrs_svg/.
 - Actualizar el JSON con la ruta relativa del QR (../assets/images/qrs_svg/<SEDE>.svg).
 - Los QR apuntan a la página de la sede, no al tablero.
+- Crear los QR: node src/js/generar_qrs_svg.js 
 */
 
 import fs from "fs";
@@ -47,14 +48,14 @@ const data = JSON.parse(rawData);
     if (!sedesGeneradas.has(sede)) {
       await QRCode.toFile(qrFilePath, sedeURL, { type: "svg" });
 
-      item.qr = `../assets/images/qrs_svg/${qrFileName}`;
+      item.qr = `./assets/images/qrs_svg/${qrFileName}`;
       sedesGeneradas.add(sede);
 
       console.log(`QR generado para sede: ${sede} → ${sedeURL}`);
     } else {
       // Mantener ruta si ya existe
       if (!item.qr || item.qr.trim() === "") {
-        item.qr = `../assets/images/qrs_svg/${qrFileName}`;
+        item.qr = `./assets/images/qrs_svg/${qrFileName}`;
       }
     }
   }
