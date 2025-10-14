@@ -33,7 +33,7 @@
         "T-G",
         "MULTIPLACA"
       ],
-      "qr": "https://qr-generator.com/?data=https://1drv.ms/b/c/4deddb1a6d1d3453/IQTAdkXcC2GyQq_NMyooht1XAQZh-4vqtLu1vRO6WbOEgFw",
+      "qr": "../assets/images/qrs_svg/MULTIPLACA.svg",
       "notas": "Tablero principal MULTIPLACA"
     },
     { "id registro": 2,
@@ -59,7 +59,7 @@
         "T-G",
         "Zona: 01"
       ],
-      "qr": "https://qr-generator.com/?data=https://1drv.ms/b/c/4deddb1a6d1d3453/IQRRX-GreiPkTKmoXNc5iJwTAazI2oNUXhmA4oqOUh769-k",
+      "qr": "../assets/images/qrs_svg/LOMAS.svg",
       "notas": "Tablero principal LOMAS"
     },
     { "id registro": 3,
@@ -85,7 +85,7 @@
         "T-G",
         "Zona: 04"
       ],
-      "qr": "https://qr-generator.com/?data=https://1drv.ms/b/c/4deddb1a6d1d3453/IQRDTRnrhNM1R5HCy9EqfF7TAfgISoSBXKVpoYCv-ectddA",
+      "qr": "../assets/images/qrs_svg/VICENTE-LÓPEZ-2.svg",
       "notas": "Tablero principal VICENTE LÓPEZ 2"
     },
     { "id registro": 4,
@@ -111,7 +111,7 @@
         "T-G",
         "Zona: 05"
       ],
-      "qr": "https://qr-generator.com/?data=https://1drv.ms/b/c/4deddb1a6d1d3453/IQRfREXjmMFKQIQRn8Zgn5HuAd6HW7YexYqBcbq1JE1Ui08",
+      "qr": "../assets/images/qrs_svg/MUNRO.svg",
       "notas": "Tablero principal MUNRO"
     },
     { "id registro": 5,
@@ -137,7 +137,7 @@
         "T-G",
         "Zona: 05"
       ],
-      "qr": "https://qr-generator.com/?data=https://1drv.ms/b/c/4deddb1a6d1d3453/IQRmmDXsBPtdSrA3Ih9hB4cLAdRkVcHR1mBSxO8Dq7dYims",
+      "qr": "../assets/images/qrs_svg/VILLA-ADELINA.svg",
       "notas": "Tablero principal VILLA ADELINA"
     },
     { "id registro": 6,
@@ -163,7 +163,7 @@
         "T-G",
         "Zona: 06"
       ],
-      "qr": "https://qr-generator.com/?data=https://1drv.ms/b/c/4deddb1a6d1d3453/IQT4Ej3kUPN0Q7qlktrPb0dNARfw4AWoGJ1cdktLveZ-iuc",
+      "qr": "../assets/images/qrs_svg/CASEROS.svg",
       "notas": "Tablero principal CASEROS"
     },
     { "id registro": 7,
@@ -189,7 +189,7 @@
         "T-G",
         "Zona: 07"
       ],
-      "qr": "https://qr-generator.com/?data=https://1drv.ms/b/c/4deddb1a6d1d3453/IQRmEFEmmdaZS67ddpS5OGgWAfd6NNfj7U_lhSTmFEXFreI",
+      "qr": "../assets/images/qrs_svg/PILAR-PARALELO.svg",
       "notas": "Tablero principal PILAR PARALELO"
     },
     { "id registro": 8,
@@ -215,7 +215,7 @@
         "T-G",
         "Zona: 08"
       ],
-      "qr": "https://qr-generator.com/?data=https://1drv.ms/b/c/4deddb1a6d1d3453/IQS7BopBHg15Qpff8zn_EYhWAew_5O4HntIntM5_F-ilueI",
+      "qr": "../assets/images/qrs_svg/SAN-MIGUEL.svg",
       "notas": "Tablero principal SAN MIGUEL"
     },
     { "id registro": 9,
@@ -241,7 +241,7 @@
         "T-G",
         "Zona: 09"
       ],
-      "qr": "https://qr-generator.com/?data=https://1drv.ms/b/c/4deddb1a6d1d3453/IQSJ7i-6cTjSTKZ1bjyU6WsoAVYSDjDfXz1wp7g186shKpA",
+      "qr": "../assets/images/qrs_svg/REMEROS.svg",
       "notas": "Tablero principal REMEROS"
     },
     { "id registro": 10,
@@ -267,7 +267,7 @@
         "T-G",
         "Zona: 09"
       ],
-      "qr": "https://qr-generator.com/?data=https://1drv.ms/b/c/4deddb1a6d1d3453/IQRkAZZneobiS6Oh3uOxYfBpARIgD-ZQBiDDX6bAaEIF2D4",
+      "qr": "../assets/images/qrs_svg/SAN-FERNANDO.svg",
       "notas": "Tablero principal SAN FERNANDO"
     }
   ]
