@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+*:focus {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  touch-action: none;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  background: var(--color-fondo);
+}
+
+/* Variables CSS globales (colores, fuentes) */
+
+:root {
+  /* VARIABLES DE COLORES */
+  --color-fondo: #f9fafb;
+  --color-primary: #c00000;
+  --color-white: #ffffffff;
+  --color-brack: #00000088;
+  --color-caja-url: #e4e1e1ff;
+  --color-footer: #26272b;
+
+  --color-caja-url-hover: #d8d7d7ff;
+  --color-azul-hover: #2c2c7de6;
+  --color-borde-caja: #9b9b9bff;
+
+  /* VARIABLES FUENTES */
+  --family-primary: "Roboto", monospace, sans-serif;
+  --family-secondary: "Montserrat", monospace, sans-serif;
+
+  /* VARIABLES DE TAMAÑO */
+  --size-12: 1.2rem;
+  --size-14: 1.4rem;
+  --size-16: 1.6rem;
+  --size-20: 2rem;
+  --gap-10: 10px;
+  --gap-20: 20px;
+
+  /* VARIABLES DE ASPECTO */
+  --border-radius-08: 8px;
+  --border-radius-10: 10px;
+  --border-radius-12: 12px;
+}

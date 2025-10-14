@@ -1,0 +1,51 @@
+/* variables.css */
+@import url('variables.css');
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: var(--color-white);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: var(--gap-20);
+}
+
+.qr-card {
+  background: var(--color-white);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+}
+
+.qr-card img {
+  border-bottom: 2px solid var(--color-primary);
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.qr-name {
+  display: flex;
+  flex-direction: column;
+  /* vertical para texto con salto de línea */
+  align-items: center;
+  /* centra horizontalmente el texto */
+  justify-content: center;
+  gap: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  white-space: pre-wrap;
+  /* respeta los saltos de línea */
+  text-align: center;
+}
+
+.qr-name img {
+  border-bottom: none;
+  width: 40px;
+  height: 40px;
+}
