@@ -3,11 +3,11 @@
 
 body {
   font-family: Arial;
-  padding: 20px;
   background: var(--color-white);
 }
 
 .grid-container {
+  padding: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: var(--gap-20);

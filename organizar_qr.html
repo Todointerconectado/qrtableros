@@ -5,8 +5,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Tableros - QRs</title>
+
+  <!-- Meta SEO básico -->
+  <meta name="language" content="es">
+  <meta name="author" content="Francisco Carusso">
+  <meta name="generator" content="Todointerconectado">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Página con las sedes y el acceso a los relevamientos de tableros eléctricos.">
+  <meta name="keywords" content="Tableros eléctricos, relevamiento, COSACA, mantenimiento">
+  <meta name="application-name" content="Todointerconectado">
+  <meta name="copyright" content="© 2025 Francisco Carusso / Todointerconectado">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://todointerconectado.com/qrtableros/organizar_qr.html">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="./src/css/organizar_qr.css">
+  <link rel="stylesheet" href="./src/css/page.css">
 
   <!-- Favicons -->
   <link rel="shortcut icon" href="./assets/icons/logo-cosaca.png" type="image/png">
@@ -15,43 +32,101 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/logo-cosaca.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/logo-cosaca.png">
   <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- Theme Color para navegadores móviles -->
+  <meta name="theme-color" content="#c00000">
+
+  <!-- PWA: iOS soporte -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Tableros Eléctricos">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- iOS Icono -->
+  <link rel="apple-touch-icon" href="https://todointerconectado.com/qrtableros/assets/icons/logo-cosaca.png">
+
+  <!-- Windows Tiles (Microsoft Edge/IE) -->
+  <meta name="msapplication-TileColor" content="#c00000">
+  <meta name="msapplication-TileImage" content="https://todointerconectado.com/qrtableros/assets/icons/logo-cosaca.png">
+
+  <!-- Manifest PWA -->
+  <link rel="manifest" href="https://todointerconectado.com/qrtableros/assets/config-apps/manifest.json">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Relevamiento de Tableros Eléctricos">
+  <meta property="og:description" content="https://www.cosaca.com.ar/relevamientos-tableros-eléctricos">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://todointerconectado.com/qrtableros/sedes.html">
+  <meta property="og:image" content="https://todointerconectado.com/qrtableros/assets/icons/logo-cosaca.png">
+  <meta property="og:image:alt" content="Relevamiento de Tableros Eléctricos">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="COSACA - Relevamiento de Tableros">
+  <meta property="og:locale" content="es_AR">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Relevamiento de Tableros Eléctricos">
+  <meta name="twitter:description" content="https://www.cosaca.com.ar/relevamientos-tableros-eléctricos">
+  <meta name="twitter:image" content="https://todointerconectado.com/qrtableros/assets/icons/logo-cosaca.png">
+  <meta name="twitter:site" content="@todointerconectado">
+
+  <!-- Manifest -->
+  <link rel="manifest" href="./assets/config-apps/manifest.json">
 </head>
 
-<body>
-  <h1>Tableros - QRs</h1>
-  <div class="grid-container" id="grid-container"></div>
+<body class="body">
+  <header class="header">
+    <figure class="content-logo">
+      <img class="logo" src="./assets/icons/logo-cosaca.png" alt="Logo">
+    </figure>
+  </header>
+  
+  <main class="main">
+    <section class="content-empresa">
+      <article class="content-empresa-icons">
+        <h1>COSACA S.A</h1>
+        <img class="icons-chevron" src="./assets/icons/chevron.png" alt="arrow">
+        <figure>
+          <a class="content-icons-support" href="https://www.cosaca.com.ar" target="_blank" rel="noopener noreferrer">
+            <img class="icons-support" src="./assets/icons/support.png" alt="arrow">
+            <img class="icons-support" src="./assets/icons/www.png" alt="arrow">
+          </a>
+        </figure>
+      </article>
+      <p>RELEVAMIENTO DE TABLEROS ELÉCTRICOS</p>
 
-  <script>
-    // Cargar JSON de tableros
-    fetch('./data/tableros_completo.json')
-      .then(response => response.json())
-      .then(data => {
-        const container = document.getElementById('grid-container');
-        data.datos.forEach(tablero => {
-          const card = document.createElement('div');
-          card.className = 'qr-card';
+      <article class="content-empresa-icons">
+        <p>Ir a la página de sedes</p>
+        <figure>
+          <a class="content-icons-support" href="./sedes.html" rel="noopener noreferrer">
+            <img class="icons-qr" src="./assets/icons/nota.png" alt="arrow">
+          </a>
+        </figure>
+      </article>
+    </section>
 
-          // Insertar QR como imagen (puede ser SVG o PNG)
-          const qrImg = document.createElement('img');
-          qrImg.src = tablero.qr;
-          qrImg.alt = tablero["id del tablero"];
-          card.appendChild(qrImg);
+    <h1>Tableros - QRs</h1>
+    <section class="grid-container" id="grid-container">
+      <!-- Lista de QRs -->
+    </section>
+  </main>
 
-          // Nombre + icono
-          const nameDiv = document.createElement('div');
-          nameDiv.className = 'qr-name';
+  <footer class="footer">
+    <section class="content-footer-texto">
+      <span>Servicios Integrales</span>
+      <a class="content-footer-url" target="_blank" rel="noopener noreferrer" title="www.cosaca.com.ar"
+        href="http://cosaca.com.ar">www.cosaca.com.ar</a>
+    </section>
 
-          // Reemplazamos solo el primer ":" por ":\n"
-          const idConSalto = tablero["id del tablero"].replace(':', ':\n');
+    <section class="content-desarrollador">
+      <span>Desarrollado por:</span>
+      <a class="footer-desarrollador" target="_blank" rel="noopener noreferrer" title="Todointerconectado.com"
+        href="http://todointerconectado.com">Todointerconectado.com</a>
+    </section>
+  </footer>
 
-          nameDiv.innerHTML = `<img src="./assets/icons/logo-cosaca.png" alt="Icono Cosaca">${idConSalto}`;
-card.appendChild(nameDiv);
-
-          container.appendChild(card);
-        });
-      })
-      .catch(err => console.error("Error cargando tableros:", err));
-  </script>
+  <script defer src="./src/js/organizar_qr.js"></script>
 </body>
 
 </html>
