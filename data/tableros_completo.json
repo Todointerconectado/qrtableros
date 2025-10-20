@@ -1,284 +1,660 @@
 {
-  "metadata": {
-    "version": "1.0.0",
-    "autor": "Francisco Carusso",
-    "fecha_creacion": "2025-09-30",
-    "descripcion": "Listado de tableros de relevamiento con sus URLs y zonas",
-    "contacto": "gerencia@cosaca.com.ar",
-    "licencia": "CC BY-NC 4.0",
-    "fuente_datos": "Relevamiento interno",
-    "schema": "https://tu-servidor.com/schema/tableros.json"
-  },
-  "datos": [
+  "empresas": [
     {
-      "id registro": 1,
-      "uuid": "8fd28259-0bc9-41fa-9a3f-754fe8ff0fd8",
-      "empresa": "MULTIPLACA",
-      "zona": "MULTIPLACA",
-      "sede": "MULTIPLACA",
-      "id del tablero": "MULTIPLACA: PB T-G 01",
-      "url": "https://1drv.ms/b/c/4deddb1a6d1d3453/IQTAdkXcC2GyQq_NMyooht1XAQZh-4vqtLu1vRO6WbOEgFw",
-      "estado": {
-        "codigo": "ACT",
-        "descripcion": "Activo"
-      },
-      "responsable": "Gerencia Técnica",
-      "frecuencia_relevamiento": "trimestral",
-      "tipo_tablero": "general",
-      "ubicacion": {
-        "piso": "PB",
-        "sector": "T-G 01"
-      },
-      "tags": [
-        "PB",
-        "T-G",
-        "MULTIPLACA"
-      ],
-      "qr": "./assets/images/qrs_svg/MULTIPLACA.svg",
-      "notas": "Tablero principal MULTIPLACA"
+      "nombre": "hidalgo",
+      "sedes": [
+        { "nombre": "munro",
+          "qr_sede": "/assets/images/qrs_svg/MUNRO.svg",
+          "tableros": [
+            {
+              "historial_informes": [
+                {
+                  "fecha": "20-03-2025",
+                  "archivos": [
+                    {
+                      "nombre": "MUNRO PB T-G 01",
+                      "url": "/assets/informes/hidalgo/munro/25-03-25 hidalgo munro PS T-G 01.pdf"
+                    }
+                  ]
+                },
+                {
+                  "fecha": "13-08-2025",
+                  "archivos": [
+                    {
+                      "nombre": "MUNRO PB T-G 01",
+                      "url": "/assets/informes/hidalgo/munro/13-08-25 hidalgo munro PS T-G 01.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "caseros",
+          "qr_sede": "/assets/images/qrs_svg/CASEROS.svg",
+          "tableros": [
+            {
+              "historial_informes": [
+                {
+                  "fecha": "25-03-2025",
+                  "archivos": [
+                    {
+                      "nombre": "CASEROS PB T-G 01",
+                      "url": "/assets/informes/hidalgo/caseros/25-03-25 hidalgo caseros PS T-G 01.pdf"
+                    }
+                  ]
+                },
+                {
+                  "fecha": "27-08-2025",
+                  "archivos": [
+                    {
+                      "nombre": "MUNRO PB T-G 01",
+                      "url": "/assets/informes/hidalgo/caseros/27-08-25 hidalgo caseros PS T-G 01.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "ituzaingo",
+          "qr_sede": "",
+          "tableros": [
+            {
+              "historial_informes": [
+                {
+                  "fecha": "25-03-2025",
+                  "archivos": [
+                    {
+                      "nombre": "ITUZAINGO PB T-G 01",
+                      "url": "/assets/informes/hidalgo/ituzaingo/25-03-25 hidalgo ituzaingo PS T-G 01.pdf"
+                    }
+                  ]
+                },
+                {
+                  "fecha": "27-08-2025",
+                  "archivos": [
+                    {
+                      "nombre": "ITUZAINGO PB T-G 01",
+                      "url": "/assets/informes/hidalgo/ituzaingo/29-08-25 hidalgo ituzaingo PS T-G 01.pdf"
+                    },
+                    {
+                      "nombre": "ITUZAINGO PB T-G 01",
+                      "url": "/assets/informes/hidalgo/ituzaingo/29-08-25 hidalgo ituzaingo PS T-G 02.pdf"
+                    },
+                    {
+                      "nombre": "ITUZAINGO PB T-G 01",
+                      "url": "/assets/informes/hidalgo/ituzaingo/29-08-25 hidalgo ituzaingo PS T-GdFM 01.pdf"
+                    },
+                    {
+                      "nombre": "ITUZAINGO PB T-G 01",
+                      "url": "/assets/informes/hidalgo/ituzaingo/29-08-25 hidalgo ituzaingo PS T-GE 01.pdf"
+                    },
+                    {
+                      "nombre": "ITUZAINGO PB T-G 01",
+                      "url": "/assets/informes/hidalgo/ituzaingo/29-08-25 hidalgo ituzaingo PS T-SCdP 01.pdf"
+                    },
+                    {
+                      "nombre": "ITUZAINGO PB T-G 01",
+                      "url": "/assets/informes/hidalgo/ituzaingo/29-08-25 hidalgo ituzaingo PS T-UPS 01.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        { "nombre": "martinez",
+          "qr_sede": "",
+          "tableros": [
+            {
+              "historial_informes": [
+                {
+                  "fecha": "25-03-2025",
+                  "archivos": [
+                    {
+                      "nombre": "MARTINEZ PB T-G 01",
+                      "url": "/assets/informes/hidalgo/martinez/25-03-25 hidalgo martinez PB T-G 01.pdf"
+                    }
+                  ]
+                },
+                {
+                  "fecha": "03-09-2025",
+                  "archivos": [
+                    {
+                      "nombre": "MARTINEZ PB T-G 01",
+                      "url": "/assets/informes/hidalgo/martinez/03-09-25 hidalgo martinez PB T-G 01.pdf"
+                    },
+                    {
+                      "nombre": "MARTINEZ",
+                      "url": "/assets/informes/hidalgo/martinez"
+                    },
+                    {
+                      "nombre": "MARTINEZ",
+                      "url": "/assets/informes/hidalgo/martinez"
+                    },
+                    {
+                      "nombre": "MARTINEZ",
+                      "url": "/assets/informes/hidalgo/martinez"
+                    },
+                    {
+                      "nombre": "MARTINEZ",
+                      "url": "/assets/informes/hidalgo/martinez"
+                    },
+                    {
+                      "nombre": "MARTINEZ",
+                      "url": "/assets/informes/hidalgo/martinez"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
-    {
-      "id registro": 2,
-      "uuid": "68e0a371-ef3b-4d71-98ff-8d0acba61e7b",
-      "empresa": "HIDALGO",
-      "zona": "Zona: 01",
-      "sede": "LOMAS",
-      "id del tablero": "LOMAS: PB T-G 01",
-      "url": "https://1drv.ms/b/c/4deddb1a6d1d3453/IQRRX-GreiPkTKmoXNc5iJwTAazI2oNUXhmA4oqOUh769-k",
-      "estado": {
-        "codigo": "ACT",
-        "descripcion": "Activo"
-      },
-      "responsable": "Gerencia Técnica",
-      "frecuencia_relevamiento": "trimestral",
-      "tipo_tablero": "general",
-      "ubicacion": {
-        "piso": "PB",
-        "sector": "T-G 01"
-      },
-      "tags": [
-        "PB",
-        "T-G",
-        "Zona: 01"
-      ],
-      "qr": "./assets/images/qrs_svg/LOMAS.svg",
-      "notas": "Tablero principal LOMAS"
-    },
-    {
-      "id registro": 3,
-      "uuid": "3aa659ea-ef27-4eaf-9874-fcc294fc3558",
-      "empresa": "HIDALGO",
-      "zona": "Zona: 04",
-      "sede": "VICENTE-LÓPEZ-2",
-      "id del tablero": "VICENTE LÓPEZ 2: PB T-G 01",
-      "url": "https://1drv.ms/b/c/4deddb1a6d1d3453/IQRDTRnrhNM1R5HCy9EqfF7TAfgISoSBXKVpoYCv-ectddA",
-      "estado": {
-        "codigo": "ACT",
-        "descripcion": "Activo"
-      },
-      "responsable": "Gerencia Técnica",
-      "frecuencia_relevamiento": "trimestral",
-      "tipo_tablero": "general",
-      "ubicacion": {
-        "piso": "PB",
-        "sector": "T-G 01"
-      },
-      "tags": [
-        "PB",
-        "T-G",
-        "Zona: 04"
-      ],
-      "qr": "./assets/images/qrs_svg/VICENTE-LÓPEZ-2.svg",
-      "notas": "Tablero principal VICENTE LÓPEZ 2"
-    },
-    {
-      "id registro": 4,
-      "uuid": "8b7efae0-5abd-4d8e-84c7-a84bcad6b3e7",
-      "empresa": "HIDALGO",
-      "zona": "Zona: 05",
-      "sede": "MUNRO",
-      "id del tablero": "MUNRO: PB T-G 01",
-      "url": "https://1drv.ms/b/c/4deddb1a6d1d3453/IQRfREXjmMFKQIQRn8Zgn5HuAd6HW7YexYqBcbq1JE1Ui08",
-      "estado": {
-        "codigo": "ACT",
-        "descripcion": "Activo"
-      },
-      "responsable": "Gerencia Técnica",
-      "frecuencia_relevamiento": "trimestral",
-      "tipo_tablero": "general",
-      "ubicacion": {
-        "piso": "PB",
-        "sector": "T-G 01"
-      },
-      "tags": [
-        "PB",
-        "T-G",
-        "Zona: 05"
-      ],
-      "qr": "./assets/images/qrs_svg/MUNRO.svg",
-      "notas": "Tablero principal MUNRO"
-    },
-    {
-      "id registro": 5,
-      "uuid": "b3716975-ace7-4776-9062-92173178d8ee",
-      "empresa": "HIDALGO",
-      "zona": "Zona: 05",
-      "sede": "VILLA-ADELINA",
-      "id del tablero": "VILLA ADELINA: PB T-G 01",
-      "url": "https://1drv.ms/b/c/4deddb1a6d1d3453/IQRmmDXsBPtdSrA3Ih9hB4cLAdRkVcHR1mBSxO8Dq7dYims",
-      "estado": {
-        "codigo": "ACT",
-        "descripcion": "Activo"
-      },
-      "responsable": "Gerencia Técnica",
-      "frecuencia_relevamiento": "trimestral",
-      "tipo_tablero": "general",
-      "ubicacion": {
-        "piso": "PB",
-        "sector": "T-G 01"
-      },
-      "tags": [
-        "PB",
-        "T-G",
-        "Zona: 05"
-      ],
-      "qr": "./assets/images/qrs_svg/VILLA-ADELINA.svg",
-      "notas": "Tablero principal VILLA ADELINA"
-    },
-    {
-      "id registro": 6,
-      "uuid": "ce744fbe-d26b-49d0-b59e-a5412b4b976b",
-      "empresa": "HIDALGO",
-      "zona": "Zona: 06",
-      "sede": "CASEROS",
-      "id del tablero": "CASEROS: PB T-G 01",
-      "url": "https://1drv.ms/b/c/4deddb1a6d1d3453/IQT4Ej3kUPN0Q7qlktrPb0dNARfw4AWoGJ1cdktLveZ-iuc",
-      "estado": {
-        "codigo": "ACT",
-        "descripcion": "Activo"
-      },
-      "responsable": "Gerencia Técnica",
-      "frecuencia_relevamiento": "trimestral",
-      "tipo_tablero": "general",
-      "ubicacion": {
-        "piso": "PB",
-        "sector": "T-G 01"
-      },
-      "tags": [
-        "PB",
-        "T-G",
-        "Zona: 06"
-      ],
-      "qr": "./assets/images/qrs_svg/CASEROS.svg",
-      "notas": "Tablero principal CASEROS"
-    },
-    {
-      "id registro": 7,
-      "uuid": "5fe3d5d2-820c-482a-bce7-159a84f8d4f6",
-      "empresa": "HIDALGO",
-      "zona": "Zona: 07",
-      "sede": "PILAR-PARALELO",
-      "id del tablero": "PILAR PARALELO: PB T-G 01",
-      "url": "https://1drv.ms/b/c/4deddb1a6d1d3453/IQRmEFEmmdaZS67ddpS5OGgWAfd6NNfj7U_lhSTmFEXFreI",
-      "estado": {
-        "codigo": "ACT",
-        "descripcion": "Activo"
-      },
-      "responsable": "Gerencia Técnica",
-      "frecuencia_relevamiento": "trimestral",
-      "tipo_tablero": "general",
-      "ubicacion": {
-        "piso": "PB",
-        "sector": "T-G 01"
-      },
-      "tags": [
-        "PB",
-        "T-G",
-        "Zona: 07"
-      ],
-      "qr": "./assets/images/qrs_svg/PILAR-PARALELO.svg",
-      "notas": "Tablero principal PILAR PARALELO"
-    },
-    {
-      "id registro": 8,
-      "uuid": "dc4c99af-cb66-46bd-b73e-41b6a59b4b1a",
-      "empresa": "HIDALGO",
-      "zona": "Zona: 08",
-      "sede": "SAN-MIGUEL",
-      "id del tablero": "SAN MIGUEL: PB T-G 01",
-      "url": "https://1drv.ms/b/c/4deddb1a6d1d3453/IQS7BopBHg15Qpff8zn_EYhWAew_5O4HntIntM5_F-ilueI",
-      "estado": {
-        "codigo": "ACT",
-        "descripcion": "Activo"
-      },
-      "responsable": "Gerencia Técnica",
-      "frecuencia_relevamiento": "trimestral",
-      "tipo_tablero": "general",
-      "ubicacion": {
-        "piso": "PB",
-        "sector": "T-G 01"
-      },
-      "tags": [
-        "PB",
-        "T-G",
-        "Zona: 08"
-      ],
-      "qr": "./assets/images/qrs_svg/SAN-MIGUEL.svg",
-      "notas": "Tablero principal SAN MIGUEL"
-    },
-    {
-      "id registro": 9,
-      "uuid": "51e473c7-26e8-49c5-89ea-96c0129ceaa6",
-      "empresa": "HIDALGO",
-      "zona": "Zona: 09",
-      "sede": "REMEROS",
-      "id del tablero": "REMEROS: PB T-G 01",
-      "url": "https://1drv.ms/b/c/4deddb1a6d1d3453/IQSJ7i-6cTjSTKZ1bjyU6WsoAVYSDjDfXz1wp7g186shKpA",
-      "estado": {
-        "codigo": "ACT",
-        "descripcion": "Activo"
-      },
-      "responsable": "Gerencia Técnica",
-      "frecuencia_relevamiento": "trimestral",
-      "tipo_tablero": "general",
-      "ubicacion": {
-        "piso": "PB",
-        "sector": "T-G 01"
-      },
-      "tags": [
-        "PB",
-        "T-G",
-        "Zona: 09"
-      ],
-      "qr": "./assets/images/qrs_svg/REMEROS.svg",
-      "notas": "Tablero principal REMEROS"
-    },
-    {
-      "id registro": 10,
-      "uuid": "20a79a30-e136-4ae1-aee7-b3916960f00c",
-      "empresa": "HIDALGO",
-      "zona": "Zona: 09",
-      "sede": "SAN-FERNANDO",
-      "id del tablero": "SAN FERNANDO: PB T-G 01",
-      "url": "https://1drv.ms/b/c/4deddb1a6d1d3453/IQRkAZZneobiS6Oh3uOxYfBpARIgD-ZQBiDDX6bAaEIF2D4",
-      "estado": {
-        "codigo": "ACT",
-        "descripcion": "Activo"
-      },
-      "responsable": "Gerencia Técnica",
-      "frecuencia_relevamiento": "trimestral",
-      "tipo_tablero": "general",
-      "ubicacion": {
-        "piso": "PB",
-        "sector": "T-G 01"
-      },
-      "tags": [
-        "PB",
-        "T-G",
-        "Zona: 09"
-      ],
-      "qr": "./assets/images/qrs_svg/SAN-FERNANDO.svg",
-      "notas": "Tablero principal SAN FERNANDO"
+    { "nombre": "rossi",
+      "sedes": [
+        { "nombre": "k41, pb / imagenes",
+          "qr_sede": "",
+          "tableros": [
+            {
+              "historial_informes": [
+                {"fecha": "25-04-2025",
+                  "archivos": [
+                    {
+                      "nombre": "k41, pb / imagenes PB T-G 01",
+                      "url": "/assets/informes/rossi/k41/25-04-25 rossi k41 PS T-G 01.pdf"
+                    }
+                  ]
+                },
+                {"fecha": "09-09-2025",
+                  "archivos": [
+                    {
+                      "nombre": "k41, pb / imagenes PB T-G 01",
+                      "url": "/assets/informes/rossi/k41/09-09-25 rossi k41 PB T-G 01.pdf"
+                    },
+                    {
+                      "nombre": "k41, P4 / Laboratorio PB T-G 01",
+                      "url": "/assets/informes/rossi/k41/09-09-25 rossi k41 P4 T-G 02.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        { "nombre": "parque leloir",
+          "qr_sede": "",
+          "tableros": [
+            {
+              "historial_informes": [
+                {"fecha": "22-04-2025",
+                  "archivos": [
+                    {
+                      "nombre": "PARQUE LELOIR PB T-G 01",
+                      "url": "/assets/informes/rossi/parque leloir/22-04-25 rossi parque leloir PB T-G 01.pdf"
+                    }
+                  ]
+                },
+                {"fecha": "20-08-2025",
+                  "archivos": [
+                    {
+                      "nombre": "PARQUE LELOIR PB T-G 01",
+                      "url": "/assets/informes/rossi/parque leloir/20-08-25 rossi parque leloir PB T-G 01.pdf"
+                    },
+                    {
+                      "nombre": "PARQUE LELOIR PB T-S 01",
+                      "url": "/assets/informes/rossi/parque leloir/20-08-25 rossi parque leloir PB T-S 01.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        { "nombre": "solar",
+          "qr_sede": "",
+          "tableros": [
+            {
+              "historial_informes": [
+                {
+                  "fecha": "30-04-2025",
+                  "archivos": [
+                    {
+                      "nombre": "SOLAR PB T-G 01",
+                      "url": "/assets/informes/rossi/belgrano/solar/30-04-25 rossi solar PB T-G 01.pdf"
+                    }
+                  ]
+                },
+                {
+                  "fecha": "19-08-2025",
+                  "archivos": [
+                    {
+                      "nombre": "solar PB T-G 01",
+                      "url": "/assets/informes/rossi/belgrano/solar/19-08-25 rossi solar PB T-G 01.pdf"
+                    },
+                    {
+                      "nombre": "solar P1 T-SdA 01",
+                      "url": "/assets/informes/rossi/belgrano/solar/19-08-25 rossi solar P1 T-SdA 01.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        { "nombre": "banco encalada 2531",
+          "qr_sede": "",
+          "tableros": [
+            {
+              "historial_informes": [
+                {
+                  "fecha": "4-04-2025",
+                  "archivos": [
+                    {
+                      "nombre": "BANCO ENCALADA 2531 PB T-G 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2531/24-04-25 rossi blanco-encalada-2531 PB T-G 01.pdf"
+                    }
+                  ]
+                },
+                {
+                  "fecha": "19-08-2025",
+                  "archivos": [
+                    {
+                      "nombre": "BANCO ENCALADA 2531  PB T-M 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2531/19-08-25 rossi blanco-encalada-2531 PB T-M 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2531 PB T-G 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2531/19-08-25 rossi blanco-encalada-2531 PB T-G 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2531  PB T-S 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2531/19-08-25 rossi blanco-encalada-2531 PB T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2531  PB T-S 02",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2531/19-08-25 rossi blanco-encalada-2531 PB T-S 02.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2531  P1 T-S 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2531/19-08-25 rossi blanco-encalada-2531 P1 T-S 01.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        { "nombre": "banco encalada 2557",
+          "qr_sede": "",
+          "tableros": [
+            {
+              "historial_informes": [
+                {
+                  "fecha": "24-04-2025",
+                  "archivos": [
+                    {
+                      "nombre": "BANCO ENCALADA 2557 PB T-G 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2557/24-04-25 rossi blanco-encalada-2557 PB T-G 01.pdf"
+                    }
+                  ]
+                },
+                {
+                  "fecha": "19-08-2025",
+                  "archivos": [
+                    {
+                      "nombre": "BANCO ENCALADA 2557 PB T-G 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2557/19-08-25 rossi blanco-encalada-2557 PB T-G 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2557 PB T-S 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2557/19-08-25 rossi blanco-encalada-2557 PB T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2557 PB T-SdB 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2557/19-08-25 rossi blanco-encalada-2557 PB T-SdB 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2557 P1 T-S 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2557/19-08-25 rossi blanco-encalada-2557 P1 T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2557 P1 T-SAA 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2557/19-08-25 rossi blanco-encalada-2557 P1 T-SAA 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2557 P2 T-S 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2557/19-08-25 rossi blanco-encalada-2557 P2 T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2557 P2 T-S 02",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2557/19-08-25 rossi blanco-encalada-2557 P2 T-S 02.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2557 P2 T-SdE 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2557/19-08-25 rossi blanco-encalada-2557 P2 T-SdE 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2557 P2 T-SdE 02",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2557/19-08-25 rossi blanco-encalada-2557 P2 T-SdE 02.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2557 P3 T-S 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2557/19-08-25 rossi blanco-encalada-2557 P3 T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2557 P3 T-SAA 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2557/19-08-25 rossi blanco-encalada-2557 P3 T-SAA 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2557 P4 T-SAA 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2557/19-08-25 rossi blanco-encalada-2557 P4 T-SAA 01.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        { "nombre": "banco encalada 2571",
+          "qr_sede": "",
+          "tableros": [
+            {
+              "historial_informes": [
+                { "fecha": "24-04-2025",
+                  "archivos": [
+                    {
+                      "nombre": "BANCO ENCALADA 2571 PB T-G 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2571/24-04-25 rossi blanco-encalada-2571 PB T-G 01.pdf"
+                    }
+                  ]
+                },
+                { "fecha": "19-08-2025",
+                  "archivos": [
+                    {
+                      "nombre": "BANCO ENCALADA 2571 PB T-G 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2571/19-08-25 rossi blanco-encalada-2571 PB T-G 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2571 PB T-S 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2571/19-08-25 rossi blanco-encalada-2571 PB T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2571 PB T-SdB 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2571/19-08-25 rossi blanco-encalada-2571 PB T-SdB 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2571 P1 T-S 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2571/19-08-25 rossi blanco-encalada-2571 P1 T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2571 P2 T-S 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2571/19-08-25 rossi blanco-encalada-2571 P2 T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2571 P3 T-S 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2571/19-08-25 rossi blanco-encalada-2571 P3 T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2571 P5 T-S 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2571/19-08-25 rossi blanco-encalada-2571 P5 T-S 01.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        { "nombre": "banco encalada 2581",
+          "qr_sede": "",
+          "tableros": [
+            {
+              "historial_informes": [
+                { "fecha": "24-04-2025",
+                  "archivos": [
+                    {
+                      "nombre": "BANCO ENCALADA 2581 PB T-G 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2581/24-04-25 rossi blanco-encalada-2581 PB T-G 01.pdf"
+                    }
+                  ]
+                },
+                { "fecha": "19-08-2025",
+                  "archivos": [
+                    {
+                      "nombre": "BANCO ENCALADA 2581 PB T-G 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2581/19-08-25 rossi blanco-encalada-2581 PB T-G 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2581 PB T-S 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2581/19-08-25 rossi blanco-encalada-2581 PB T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "BANCO ENCALADA 2581 P1 T-S 01",
+                      "url": "/assets/informes/rossi/belgrano/blanco encalada 2581/19-08-25 rossi blanco-encalada-2581 P1 T-S 01.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        { "nombre": "esmeralda 135",
+          "qr_sede": "",
+          "tableros": [
+            {
+              "historial_informes": [
+                { "fecha": "23-04-2025",
+                  "archivos": [
+                    {
+                      "nombre": "ESMERALDA 135 P3 T-G 01",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 135/23-04-25 rossi esmeralda-135 P3 T-G 01.pdf"
+                    }
+                  ]
+                },
+                { "fecha": "15-08-2025",
+                  "archivos": [
+                    {
+                      "nombre": "ESMERALDA 135 P3 T-S 01",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 135/15-08-25 rossi esmeralda-135 P3 T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "ESMERALDA 135 P3 T-S 02",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 135/15-08-25 rossi esmeralda-135 P3 T-S 02.pdf"
+                    },
+                    {
+                      "nombre": "ESMERALDA 135 P6 T-G 01",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 135/15-08-25 rossi esmeralda-135 P6 T-G 01.pdf"
+                    },
+                    {
+                      "nombre": "ESMERALDA 135 P8 T-G 01",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 135/15-08-25 rossi esmeralda-135 P8 T-G 01.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        { "nombre": "esmeralda 141",
+          "qr_sede": "",
+          "tableros": [
+            {
+              "historial_informes": [
+                { "fecha": "30-04-2025",
+                  "archivos": [
+                    {
+                      "nombre": "ESMERALDA 141 PB T-G 01",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 141/30-04-25 rossi esmeralda-141 PB T-G 01.pdf"
+                    }
+                  ]
+                },
+                { "fecha": "15-08-2025",
+                  "archivos": [
+                    {
+                      "nombre": "ESMERALDA 141 PS T-SdE 01",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 141/15-08-25 rossi esmeralda-141 PS T-SdE 01.pdf"
+                    }
+                  ]
+                },
+                { "fecha": "18-08-2025",
+                  "archivos": [
+                    {
+                      "nombre": "ESMERALDA 141 PB T-S 01",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 141/18-08-25 rossi esmeralda-141 PB T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "ESMERALDA 141 P1 T-S 01",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 141/18-08-25 rossi esmeralda-141 P1 T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "ESMERALDA 141 P1 T-SAA 0",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 141/18-08-25 rossi esmeralda-141 P1 T-SAA 01.pdf"
+                    },
+                    {
+                      "nombre": "ESMERALDA 141 P1 T-SAA 02",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 141/18-08-25 rossi esmeralda-141 P1 T-SAA 02.pdf"
+                    },
+                    {
+                      "nombre": "ESMERALDA 141 P1 T-SdE 01",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 141/18-08-25 rossi esmeralda-141 P1 T-SdE 01.pdf"
+                    },
+                    {
+                      "nombre": "ESMERALDA 141 P1 T-SdE 02",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 141/18-08-25 rossi esmeralda-141 P1 T-SdE 02.pdf"
+                    },
+                    {
+                      "nombre": "ESMERALDA 141 P1 T-SdE 03",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 141/18-08-25 rossi esmeralda-141 P1 T-SdE 03.pdf"
+                    },
+                    {
+                      "nombre": "ESMERALDA 141 P2 T-S 01",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 141/18-08-25 rossi esmeralda-141 P2 T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "ESMERALDA 141 P2 T-SdE 01",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 141/18-08-25 rossi esmeralda-141 P2 T-SdE 01.pdf"
+                    }
+                  ]
+                },
+                { "fecha": "03-09-2025",
+                  "archivos": [
+                    {
+                      "nombre": "ESMERALDA 141 PS T-G 01",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 141/03-09-25 rossi esmeralda-141 PS T-G 01.pdf"
+                    },
+                    {
+                      "nombre": "ESMERALDA 141 PS T-S 01",
+                      "url": "/assets/informes/rossi/esmeralda/esmeralda 141/03-09-25 rossi esmeralda-141 PS T-S 01.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        { "nombre": "catamarca",
+          "qr_sede": "",
+          "tableros": [
+            {
+              "historial_informes": [
+                { "fecha": "23-04-2025",
+                  "archivos": [
+                    {
+                      "nombre": "CATAMARCA PB T-G 01",
+                      "url": "/assets/informes/rossi/dardo rocha/catamarca/23-04-25 rossi catamarca PB T-G 01.pdf"
+                    }
+                  ]
+                },
+                { "fecha": "18-08-2025",
+                  "archivos": [
+                    {
+                      "nombre": "CATAMARCA PB T-G 01",
+                      "url": "/assets/informes/rossi/dardo rocha/catamarca/18-08-25 rossi catamarca PB T-G 01.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        { "nombre": "dardo rocha 3034",
+          "qr_sede": "",
+          "tableros": [
+            {
+              "historial_informes": [
+                { "fecha": "23-04-2025",
+                  "archivos": [
+                    {
+                      "nombre": "dardo rocha 3034 PB T-G 01",
+                      "url": "/assets/informes/rossi/dardo rocha/dardo rocha 3034/23-04-25 rossi dardo rocha 3034 PB T-G 01.pdf"
+                    }
+                  ]
+                },
+                { "fecha": "18-08-2025",
+                  "archivos": [
+                    {
+                      "nombre": "dardo rocha 3034 PS T-G 01",
+                      "url": "/assets/informes/rossi/dardo rocha/dardo rocha 3034/18-08-25 rossi dardo rocha 3034 PS T-G 01.pdf"
+                    },
+                    {
+                      "nombre": "dardo rocha 3034 PS T-S 01",
+                      "url": "/assets/informes/rossi/dardo rocha/dardo rocha 3034/18-08-25 rossi dardo rocha 3034 PS T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "dardo rocha 3034 PS T-SdA 01",
+                      "url": "/assets/informes/rossi/dardo rocha/dardo rocha 3034/18-08-25 rossi dardo rocha 3034 PS T-SdA 01.pdf"
+                    },
+                    {
+                      "nombre": "dardo rocha 3034 PS T-SdB 01",
+                      "url": "/assets/informes/rossi/dardo rocha/dardo rocha 3034/18-08-25 rossi dardo rocha 3034 PS T-SdB 01.pdf"
+                    },
+                    {
+                      "nombre": "dardo rocha 3034 PS T-SdB 02",
+                      "url": "/assets/informes/rossi/dardo rocha/dardo rocha 3034/18-08-25 rossi dardo rocha 3034 PS T-SdB 02.pdf"
+                    },
+                    {
+                      "nombre": "dardo rocha 3034 PS T-SdB 03",
+                      "url": "/assets/informes/rossi/dardo rocha/dardo rocha 3034/18-08-25 rossi dardo rocha 3034 PS T-SdB 03.pdf"
+                    },
+                    {
+                      "nombre": "dardo rocha 3034 PB T-M 01",
+                      "url": "/assets/informes/rossi/dardo rocha/dardo rocha 3034/18-08-25 rossi dardo rocha 3034 PB T-M 01.pdf"
+                    },
+                    {
+                      "nombre": "dardo rocha 3034 PB T-S 01",
+                      "url": "/assets/informes/rossi/dardo rocha/dardo rocha 3034/18-08-25 rossi dardo rocha 3034 PB T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "dardo rocha 3034 PB T-S 02",
+                      "url": "/assets/informes/rossi/dardo rocha/dardo rocha 3034/18-08-25 rossi dardo rocha 3034 PB T-S 02.pdf"
+                    },
+                    {
+                      "nombre": "dardo rocha 3034 P1 T-S 01",
+                      "url": "/assets/informes/rossi/dardo rocha/dardo rocha 3034/18-08-25 rossi dardo rocha 3034 P1 T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "dardo rocha 3034 P1 T-S 02",
+                      "url": "/assets/informes/rossi/dardo rocha/dardo rocha 3034/18-08-25 rossi dardo rocha 3034 P1 T-S 02.pdf"
+                    },
+                    {
+                      "nombre": "dardo rocha 3034 P2 T-S 01",
+                      "url": "/assets/informes/rossi/dardo rocha/dardo rocha 3034/18-08-25 rossi dardo rocha 3034 P2 T-S 01.pdf"
+                    },
+                    {
+                      "nombre": "dardo rocha 3034 P2 T-S 02",
+                      "url": "/assets/informes/rossi/dardo rocha/dardo rocha 3034/18-08-25 rossi dardo rocha 3034 P2 T-S 02.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
